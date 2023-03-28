@@ -17,28 +17,45 @@ html,body{
 	max-width: 1280px;
 }
 /**HEADER**/
+.logo1{
+	display: inline-block;
+	float: left;
+	width: 70px;
+	height: 50px;
+	background-color: rgb(193, 199, 201);
+	margin-top: 20px;
+	margin-left: 40px
+;
+}
+.logo1 p{
+	color: white;
+	text-align: center;
+	margin:0 auto;
+}
 header{
 	width: 100%;
-	height: 110vh;
-	max-height: 700px;
+	height: 100vh;
 	background-image: url("../images/capa.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
-/**list-right**/
-header nav{
-	float: right;
-	padding: 20px;
-}
 
+
+/**list-right**/
+nav{
+	display: inline-block;
+	float: right;
+	width: 397px;
+	height: auto;
+	padding-top: 20px;
+}
 nav ul{
 	list-style-type: none;
 }
 nav li a {
 	color: white;
 	text-decoration: none;
-	font-size: 20px;
 }
 nav li a:hover{
 	border-bottom: 1px solid white;
@@ -46,20 +63,35 @@ nav li a:hover{
 nav li{
 	float: left;
 	padding: 10px;
-
 }
-/**--list-right--**/
+/***********/
 /**Paragrafo**/
 .p1{
-	color:white;
-	font-size: 25px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
 	text-align: justify;
-	width: 600px;
-	margin-top: 250px;
-	margin-left: 200px;
+	margin-top:200px;
+	margin-left: 400px;
 }
-.p1 h3{
-	font-size: 15px;
+.p1 h1{
+	font-size:40px;
 }
-/**---Paragrafo---**/
-/**--HEADER**--/
+/****HEADER*****/
+
+/**SECTION1**/
+.section1{
+	width: 100%;
+	height: 800px;
+	background-color: #472562;
+}
+.phone{
+	
+	float: left;
+	width: 700px;
+	height: 760x;
+	background-image: url("../images/Celular.fw.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	
+}
