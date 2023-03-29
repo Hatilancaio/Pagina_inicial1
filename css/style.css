@@ -81,17 +81,49 @@ nav li{
 
 /**SECTION1**/
 .section1{
+	display: inline-block;
 	width: 100%;
-	height: 800px;
+	height: 700x;
+	max-height: 700px;
 	background-color: #472562;
 }
 .phone{
-	
-	float: left;
-	width: 700px;
-	height: 760x;
+	display: inline-block;
+	margin-top: -200px;
+	margin-bottom: -123px;
+	margin-right: 100px;
+	margin-left: -250px;
+	position: relative;
+	float: right;
+	width: 600px;
+	height: 760px;
 	background-image: url("../images/Celular.fw.png");
-	background-size: 100% auto;
 	background-repeat: no-repeat;
-	
+	background-size: 100% auto;
+	background-position: center;
+}
+.texto_lista{
+	display: inline-block;
+	float: left;
+	color: white;
+	margin:100px 100px;
+	width: 600px;
+	height: 200px;
+}
+.texto_lista h1{
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+.texto_lista ul li{
+	list-style-position: inside;
+	padding-top: 1px;
+}
+button{
+	margin-top: 20px;
+	background-color: #FF703D;
+	padding: 10px;
+	border-radius: 30px;
+	color: white;
+	cursor: pointer;
+	border: none;
 }
