@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<div class="logo1"><p>Logo(Fazer)</p></div>
+		<div class="logo1"></div>
 		<nav>
 			<ul>
 				<li><a href="">Contato</a></li>
@@ -66,7 +66,7 @@
 				sagittis pharetra dolor, ac mollis sapien 
 				condimentum vitae. Ut in interdum tortor.
 			</p>
-			<img src="images/mockup.jpg" />
+			<img src="images/ss.png" />
 		</div>
 		<div class="mockup"></div>
 	</section>
@@ -89,8 +89,8 @@
 		</div>
 		<div class="part2">
 			<div class="author">
-				<img />
-				<h1>Guilherme Grillo</h1>
+				<img src="images/actor1.png"/>
+				<h1>Lorem Ipsom</h1>
 				<h3>Co-fundador/Desenvolvedor</h3>
 			</div>
 			<div class="texto_author">
@@ -103,6 +103,38 @@
 
 		</div>
 	</section>
+	<div class="clear"></div>
+	<section class="section_4">
+		<div class="text_form">
+			<h1>Entre em contato</h1>
+			<p>Lorem ipsum dolor sit amet, 
+				consectetur adipiscing elit.
+				Aliquam scelerisque lobortis
+				iaculis. In hac habitasse 
+				platea dictumst. Cras vitae
+				purus metus.</p>
+			<form>
+				<input type="text" placeholder="Nome">
+				<input type="text" placeholder="Email">
+				<textarea name="Mensagem"
+				 placeholder="Mensagem"></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+		<div class="maps">
+			<h1>Faça uma visita</h1>
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCx8sh_HlLuleKqI2-ujHXj3P4jZfhnSUQ'>
+			</script><div class="guia" id='gmap_canvas'>
+			</div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style> 
+			<script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-27.586811,-48.54557299999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-27.586811,-48.54557299999999)});infowindow = new google.maps.InfoWindow({content:'<p style="color:black;text-align:left;font-weight:bold;">Meu Mapa</p><p style="color:black;text-align:left;">Rua Rafael Bandeira Florianópolis</p><br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+		</div><!--map-wraper2-->
+		</div>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<h3>admin@email.com.br / 48 9999-9999</h3>
+		<p>Feito por pessoas e para pessoas.</p>
+	</footer>
 	<div class="clear"></div>
 
 </body>
